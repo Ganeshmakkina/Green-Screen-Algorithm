@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>GreenScreen</title>
+    <link rel="stylesheet" type="text/css" href="screen.css">
+    <script src="script.js"></script>
+</head>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<h1> Green Screen Web Page</h1>
+<h2> What is Green Screen
+</h2>
+<p>
+Green Screen Image is used to merge the foreground image with the background image.
+</p>
+
+<canvas  id="fgcan">
+</canvas>
+<canvas  id="bgcan">
+</canvas>
+
+<p>
+Foreground:  <input type="file" multiple="false" accept="image/*" id="fgfile" onchange="loadForegroundImage()">
+</p>
+
+<p>
+  Background: <input type="file" multiple="false" accept="image/*"id="bgfile" onchange="loadBackgroundImage()">
+</p>
+
+<p>
+  <input type="button" value="create Composite" onclick="doGreenScreen()">
+  <input type="button" value="clearCanvas" onclick="clearCanvas()">
+  </p>
+<br>
+<br>
+</html>
+
+  
+  
+
+  
